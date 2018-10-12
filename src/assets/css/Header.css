@@ -1,0 +1,6 @@
+.nav-bar{height: 50px; width: 100%; color: azure; background-color: #282c34; padding: 0 15px;}
+.nav-bar > ul > li {float:left;font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;font-size: 15px;position: relative;display: block;padding: 15px 15px; line-height: 20px;}
+.nav-bar > ul > li > a{color: azure;}
+.logo-branch {display: table; float: left; }
+.logo-branch > a {color: azure; float: left; padding: 15px 15px 15px 50px; font-size: 20px; line-height: 20px;}
+.menu-items{display: table; float: left;}
