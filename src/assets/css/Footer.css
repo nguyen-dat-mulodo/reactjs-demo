@@ -1,1 +1,5 @@
-.footer{background-color: black; color: ghostwhite}
+.footer{height: 360px; background-color: #282c34; color: ghostwhite; padding: 20px 45px;}
+.footer .left-footer{position: relative; width: 36%; float: left; margin-right: 4%;}
+.footer .right-footer{position: relative; width: 60%; float: left;}
+.menu-footer{float: left; width: 40%;}
+.hot-contact{float: left; width: 55%; padding-left: 5%;}

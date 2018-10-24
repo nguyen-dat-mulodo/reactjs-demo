@@ -3,6 +3,8 @@ import './App.css';
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Content from "./pages/Home/index";
+import Menu from "./pages/Partials/banner";
+import Slider from "./pages/Partials/slide";
 // import Hello from './pages/Home/index';
 
 class App extends Component {
@@ -10,7 +12,11 @@ class App extends Component {
     return (
       <div>
         <Header/>
-        <Content/>
+        <div className={'container'}>
+          <Slider/>
+          <Menu/>
+          <Content/>
+        </div>
         <Footer/>
       </div>
     );
