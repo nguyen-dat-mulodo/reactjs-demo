@@ -5,7 +5,7 @@ class Content extends Component {
   render() {
     return(
       <div className="content">
-        this is content of page
+        {this.props.name}
       </div>
     );
   }

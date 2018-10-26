@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import Content from "./pages/Home/index";
 import Menu from "./pages/Partials/banner";
 import Slider from "./pages/Partials/slide";
+import Signin from "./pages/Authentication/Signin";
 // import Hello from './pages/Home/index';
 
 class App extends Component {
@@ -15,7 +16,8 @@ class App extends Component {
         <div className={'container'}>
           <Slider/>
           <Menu/>
-          <Content/>
+          <Signin/>
+          <Content name={"this is content of page"}/>
         </div>
         <Footer/>
       </div>
